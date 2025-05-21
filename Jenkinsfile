@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs 'NodeJS' // Name of the NodeJS installation in Jenkins
-        git 'Git' // Name of the Git installation in Jenkins
-    }
-
     environment {
         IMAGE_NAME = "node-jenkins-app"
         CONTAINER_NAME = "node-jenkins-container"
