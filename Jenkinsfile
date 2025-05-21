@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "node-jenkins-app"
+        IMAGE_NAME = "jenkins"
         CONTAINER_NAME = "node-jenkins-container"
     }
 
